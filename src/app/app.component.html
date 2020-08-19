@@ -1,0 +1,8 @@
+<h1>Operaciones</h1>
+<input type="number" class="form-control" placeholder="Ingrese Valor 1" #val1 id= "val1" ><br/>
+<input type="number" class="form-control" placeholder="Ingrese Valor 2"#val2 id= "val2" ><br/>
+
+<h4>Resultado = {{rta}}</h4> <br/>
+<button class="btn btn-primary btn-space" style="margin-right: 5px;" (click)="suma(val1.value,val2.value)">Sumar</button>
+<button class="btn btn-primary btn-space" style="margin-right: 5px;" (click)="resta(val1.value,val2.value)">Restar</button>
+<button class="btn btn-primary btn-space" style="margin-right: 5px;" (click)="multiplicacion(val1.value,val2.value)">Multiplicar</button>
